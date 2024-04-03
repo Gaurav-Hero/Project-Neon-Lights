@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main,.main{
+    width: 100%;
+    height: 100%;
+    background-color: #0d1a2e;
+    display: flex;
+}
+section{
+    height: 100%;
+    width: 50%;
+}
+.box2{
+    background-color: #00000025;
+}
+/*seach text div start --- > */
+.searchtext{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    background-color: #d8d7aa11;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.searchtext:hover{
+    transform: scale(1.05);
+}
+.textinput{
+    font-weight: 700;
+    color: #f1f1f7;
+    width: 50%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #f1f1f704;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.submitIcon{
+    color: #f1f1f7;
+    background-color: rgb(13, 100, 230);
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.submitIcon:hover{
+    box-shadow: 2px 2px 4px rgb(13, 100, 230);
+    box-shadow: 0 0 10px rgb(13, 100, 230), 0 0 20px rgb(13, 100, 230), 0 0 30px rgb(13, 100, 230);
+}
+/*font style div start  here ---- > */
+.fontstyle{
+    color: #fcfaa5;
+    background-color: #eaebd200;
+    margin: 20px;
+    height: 40%;
+}
+.styleOption{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.style-btn{
+    color: #f1f1f7;
+    width: 100px;
+    height: 30px;
+    background-color: #2115cc10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.style-btn:hover{
+    /* box-shadow: 2px 2px 4px white; */
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 20px white;
+    transform: scale(1.03);
+}
+/* Choose spacific color div start here ---> */
+.chooseColor{
+    color: #d8d7aa;
+    background-color: #eaebd207;
+    height: 20%;
+}
+.colorOption{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.color-btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.color-btn:hover{
+    /* box-shadow: 2px 2px 4px white; */
+    box-shadow: 0 0 5px currentColor, 0 0 5px white, 0 0 20px white;
+    transform: scale(1.03);
+}
+.Cop-1{
+    background-color: red;
+}
+.Cop-2{
+    background-color: blue;
+}
+.Cop-3{
+    background-color: blueviolet;
+}
+.Cop-4{
+    background-color: green;
+}
+.Cop-5{
+    background-color: violet;
+}
+/*box 1 section > neonText class ---->*/
+.neonText{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    text-shadow: 2px 2px 4px currentColor;
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+}
+/* different type font types codes*/
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.pacifico-regular {
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: normal;
+  }
+.cursive{
+    font-family: cursive;
+}
+  
+  
+  
+
+
+  
