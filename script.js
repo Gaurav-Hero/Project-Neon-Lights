@@ -32,11 +32,14 @@ styleBtn.forEach((val,idx) => {
 
 // color choosing js -->
 let colorBtn = document.querySelectorAll('.color-btn');
-let bgColor;
+let bgColor = document.querySelector('.Cop-1')
+
 colorBtn.forEach((val,idx) => {
      val.addEventListener('click', (evt) => {
-       console.log(evt.target.classList[1])
-       bgColor = document.querySelector(`.${evt.target.classList[1]}`).style.backgroundColor
-       console.log(bgColor)
+     let bgColorClass = evt.target.classList[1];
+     console.log(bgColorClass)
+     let bgColor = getComputedStyle(evt.target).backgroundColor;
+     console.log(bgColor)
+     neonText.style.color = bgColor;
      })
 })
